@@ -1,13 +1,16 @@
 [package]
-name = "rmw-toml-fmt"
-readme = "README.md"
-repository = "https://github.com/rmw-lib/toml-fmt"
-homepage = "https://github.com/rmw-lib/toml-fmt"
-description = "Format .toml files"
-version = "0.1.0"
-authors = ["i@rmw.link","Klas Segeljakt <klasseg@kth.se>"]
-edition = "2021"
-license = "MIT"
-
-[dependencies]
-toml = { version = "0.5.8", features = ["preserve_order"] }
+name = 'rmw-toml-fmt'
+readme = 'README.md'
+repository = 'https://github.com/rmw-lib/toml-fmt'
+homepage = 'https://github.com/rmw-lib/toml-fmt'
+description = 'Format .toml files'
+version = '0.1.0'
+authors = [
+    'i@rmw.link',
+    'Klas Segeljakt <klasseg@kth.se>',
+]
+edition = '2021'
+license = 'MIT'
+[dependencies.toml]
+version = '0.5.8'
+features = ['preserve_order']
